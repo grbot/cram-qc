@@ -2,5 +2,5 @@ Run samtools flagstat and stats and a set of CRAM files. Generate a MultiQC repo
 
 To run:
 ```
-nextflow run grbot/cram-qc --input /path/*.crams
+nextflow run https://github.com/grbot/cram-qc --input "/path/*.cram"
 ```
