@@ -1,6 +1,6 @@
 #!/usr/bin/env nextflow
 
-Channel.fromPath(params.input).set{cram}
+Channel.fromPath(params.input.tokenize(' ')).set{cram}
 
 if (params.input == null) {
     exit 1, helpMessage("ERROR: no --input specified")
