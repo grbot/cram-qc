@@ -1,4 +1,4 @@
-Run samtools flagstat and stats and a set of CRAM files. Generate a MultiQC report from the output.
+Run samtools flagstat on a set of CRAM files. Generate a MultiQC report from the output.
 
 To run:
 ```
